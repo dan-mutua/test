@@ -1,0 +1,5 @@
+*** answer to question b 
+The time complexity of the algorithm is O(m * n^2), where m is the number of rows and n is the number of columns in the matrix.
+This is because we iterate through each row in the matrix, and for each row, we find the maximum value and its column index, which takes O(n) time. Then we iterate through the column of the maximum value, which takes O(n) time, to check if it is the minimum value in the column. Thus, the overall time complexity is O(m * n^2).
+The space complexity is O(1) because we only use a fixed amount of additional memory to store the output list, which is independent of the size of the input matrix. Therefore, the space complexity can be considered constant or O(1).
+This makes the algorithm efficient for small to medium-sized matrices but may not be optimal for very large matrices
